@@ -1,0 +1,83 @@
+.fechaModal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1000px;
+  height: 1000px;
+  background: #00000092;
+}
+
+
+.modal {
+  position: absolute;
+  right: 7.2em;
+  top: 1em;
+  background: #364a63;
+  width: 350px;
+  height: 451px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  margin: 3em;
+}
+
+
+.jogos {
+  width: fit-content;
+  height: fit-content;
+  margin: 20px auto;
+}
+
+
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 312px;
+  margin: auto;
+}
+
+
+.text h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: initial;
+}
+
+
+.total h4 {
+  color: #beeb14;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+.total button {
+  width: 315px;
+  height: 38px;
+  background: #549300;
+  border-radius: 10px;
+  border: none;
+  margin: 20px auto;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition-duration: 0.2s;
+}
+
+
+.total button:hover {
+  background-color: #5da500;
+  font-size: 17px;
+  box-shadow: 10px 10px 14px rgb(52, 70, 84, 0.3);
+}
+

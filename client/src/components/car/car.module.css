@@ -1,0 +1,52 @@
+.card {
+  width: 312px;
+  height: 74px;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
+
+
+.card img {
+  width: 62px;
+  height: 74px;
+}
+
+
+.box {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+
+.box h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+
+.box h4 {
+  color: #beeb14;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+
+.box p {
+  color: #f00;
+  font-size: 11px;
+  font-weight: 400;
+  font-style: italic;
+  width: fit-content;
+  text-transform: uppercase;
+}
